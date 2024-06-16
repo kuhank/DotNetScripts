@@ -105,7 +105,7 @@ namespace ST_aeee1c9a543e4821b11bd0d20a3dda2c
                 var ccadd2 = Dts.Variables["ccadd2"].Value.ToString();
                 var ccaddname1= Dts.Variables["ccaddname1"].Value.ToString();
                 var ccaddname2= Dts.Variables["ccaddname2"].Value.ToString();
-				var portno= Dts.Variables["portnumber"].Value.ToString();
+		var portno= Dts.Variables["portnumber"].Value.ToString();
 				
 				
                 var fromaddress = new MailAddress("noreply@domain.com", "NoReply");
